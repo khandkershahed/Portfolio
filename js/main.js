@@ -159,7 +159,7 @@ function videoPlay(){
     var animationDuration = $(this).data('duration') ? $(this).data('duration')  : 1;
 
     // build a tween
-    var tween = gsap.to($(this), animationDuration, { clipPath: "polygon(-2% 0%, 100% 0%, 105% 100%, 0% 100%)", delay: animationDelay, ease:"expo.out"});
+    var tween = gsap.to($(this), animationDuration, { clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)", delay: animationDelay, ease:"expo.out"});
     // build a scene
     var scene = new ScrollMagic.Scene({
       triggerElement: this,
