@@ -233,9 +233,9 @@ function charts() {
       size: charSize,
       lineWidth: charLine,
       lineCap: "square",
-      onStep: function(a, b, c) {
-          $(this.el).find(".percent").text(Math.round(c));
-      }
+      // onStep: function(a, b, c) {
+      //     $(this.el).find(".percent").text(Math.round(c));
+      // }
     });
   });
   
