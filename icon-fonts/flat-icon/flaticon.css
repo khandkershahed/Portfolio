@@ -150,3 +150,9 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 .flaticon-right-quote:before {
     content: "\f12c";
 }
+.flaticon-laravel:before {
+    content: "\f3bd";
+}
+.flaticon-database:before {
+    content: "\f1c0";
+}
