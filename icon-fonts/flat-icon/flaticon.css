@@ -156,3 +156,6 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 .flaticon-database:before {
     content: "\f1c0";
 }
+.flaticon-ai:before {
+    content: "e1ec";
+}
